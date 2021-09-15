@@ -3,9 +3,9 @@
 Small Python class to parse "raw" (string) BurpSuite requests.
 
 ContentType supported:
-- Standart POST data
+- Standard POST data
 - multipart/form-data
-- Json
+- JSON
 
 
 ## Usage
@@ -50,7 +50,7 @@ Params: {'param1': 'test', 'param2': 'anotherparam'}
 
 ## Notes
 
-As I only needed to parse POST requests, HttpParser doesn't work on GET Requests yet.  
+As I only needed to parse POST requests, HttpParser doesn't work on GET requests yet.  
 Please give me sample requests when creating issues :)
 
 
